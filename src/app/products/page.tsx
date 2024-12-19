@@ -4,7 +4,6 @@ import { Carousel } from "../components/carousel"
 import { TypePricingcardoneSkeleton } from "@/contentful/types/pricingcardone.types";
 import { TypePricingcardtwoSkeleton } from "@/contentful/types/pricingcardtwo.types";
 import { TypePricingcardthreeSkeleton } from "@/contentful/types/pricingcardthree.types";
-import { TypeProducttestimonialSkeleton} from "@/contentful/types/producttestomnial";
 
 import contentfulClient from "@/contentful/contentfulClient";
 
