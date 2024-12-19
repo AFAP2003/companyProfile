@@ -13,7 +13,7 @@ const getPricingCardOneContentful = async ()=>{
     try{
       const data = await contentfulClient.getEntries<TypePricingcardoneSkeleton>({
         content_type: 'pricingcardone', // Specify the content type ID for "portfolio"
-        order: 'sys.createdAt', // Oldest first
+        order: ['sys.createdAt'], // Oldest first
 
       });
       console.log(data.items)
@@ -27,7 +27,7 @@ const getPricingCardOneContentful = async ()=>{
     try{
       const data = await contentfulClient.getEntries<TypePricingcardtwoSkeleton>({
         content_type: 'pricingcardtwo', // Specify the content type ID for "portfolio"
-        order: 'sys.createdAt', // Oldest first
+        order: ['sys.createdAt'], // Oldest first
 
       });
       console.log(data.items)
@@ -41,7 +41,7 @@ const getPricingCardOneContentful = async ()=>{
     try{
       const data = await contentfulClient.getEntries<TypePricingcardthreeSkeleton>({
         content_type: 'pricingcardthree', // Specify the content type ID for "portfolio"
-        order: 'sys.createdAt', // Oldest first
+        order: ['sys.createdAt'], // Oldest first
 
       });
       console.log(data.items)
@@ -55,7 +55,7 @@ const getPricingCardOneContentful = async ()=>{
     try{
       const data = await contentfulClient.getEntries<TypeProducttestimonialSkeleton>({
         content_type: 'producttestimonial', // Specify the content type ID for "portfolio"
-        order: 'sys.createdAt', // Oldest first
+        order: ['sys.createdAt'], // Oldest first
 
       });
       console.log(data.items)
