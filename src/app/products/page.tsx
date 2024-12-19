@@ -5,7 +5,6 @@ import { TypePricingcardoneSkeleton } from "@/contentful/types/pricingcardone.ty
 import { TypePricingcardtwoSkeleton } from "@/contentful/types/pricingcardtwo.types";
 import { TypePricingcardthreeSkeleton } from "@/contentful/types/pricingcardthree.types";
 import { TypeProducttestimonialSkeleton} from "@/contentful/types/producttestomnial";
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 import contentfulClient from "@/contentful/contentfulClient";
 
@@ -68,7 +67,6 @@ export default async function products() {
     const pricingCardOne = await getPricingCardOneContentful()
     const pricingCardTwo = await getPricingCardTwoContentful()
     const pricingCardThree = await getPricingCardThreeContentful()
-    const producttestimonial =  await getTestimonialContentful()
     return (
         <div>
             <BannerServices />
