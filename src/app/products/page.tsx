@@ -172,7 +172,7 @@ export default async function products() {
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:mb-[100px] mb-[50px]">
     {
-        pricingCardOne && pricingCardOne.items?.map((card,idx)=>
+        pricingCardOne && pricingCardOne.items?.map((card)=>
             <div className="">
         {/* Card 1 */}
         <div className="max-w-[300px] bg-white rounded-lg shadow-md hover:shadow-lg border hover:scale-105 transform transition-all duration-300 p-6">
@@ -308,7 +308,7 @@ export default async function products() {
     </div>
    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:mb-[100px] mb-[50px]">
    {
-        pricingCardTwo && pricingCardTwo.items?.map((card,idx)=>
+        pricingCardTwo && pricingCardTwo.items?.map((card)=>
             <div className="">
         {/* Card 1 */}
         <div className="max-w-[300px] bg-white rounded-lg shadow-md hover:shadow-lg border hover:scale-105 transform transition-all duration-300 p-6">
@@ -455,7 +455,7 @@ export default async function products() {
     </div>
    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:mb-[100px] mb-[50px]">
    {
-        pricingCardThree && pricingCardThree.items?.map((card,idx)=>
+        pricingCardThree && pricingCardThree.items?.map((card)=>
             <div className="">
         {/* Card 1 */}
         <div className="max-w-[300px] bg-white rounded-lg shadow-md hover:shadow-lg border hover:scale-105 transform transition-all duration-300 p-6">
