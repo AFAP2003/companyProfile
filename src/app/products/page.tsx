@@ -50,19 +50,7 @@ const getPricingCardOneContentful = async ()=>{
     }
   }
 
-  const getTestimonialContentful = async ()=>{
-    try{
-      const data = await contentfulClient.getEntries<TypeProducttestimonialSkeleton>({
-        content_type: 'producttestimonial', // Specify the content type ID for "portfolio"
-        order: ['sys.createdAt'], // Oldest first
-
-      });
-      console.log(data.items)
-      return data
-    } catch(err){
-      console.log(err)
-    }
-  }
+  
 export default async function products() {
     const pricingCardOne = await getPricingCardOneContentful()
     const pricingCardTwo = await getPricingCardTwoContentful()
