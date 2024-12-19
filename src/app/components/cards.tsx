@@ -22,9 +22,14 @@ export default function Card({image,name,desc,title}:CardProp){
     )
 }
 
+type CardProps ={
+  image:string,
+  name:string,
+  position:string,
+  desc:string
+}
 
-
-export function CardTeam({image,name,position,desc}:any){
+export function CardTeam({image,name,position,desc}:CardProps){
 
   return(
     <div className="border rounded-[10px] sm:max-w-[300px] ">
