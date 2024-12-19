@@ -108,10 +108,10 @@ export default function TestimonialCarousel() {
 
 
 type CarouselProps ={
-  text:any;
-  name:any;
-  position:any;
-  logo:any;
+  text:string;
+  name:string;
+  position:string;
+  logo:string;
 }
 export function Carousel({text,name,position,logo}:CarouselProps){
     return(

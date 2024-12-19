@@ -4,7 +4,7 @@ import { Carousel } from "../components/carousel"
 import { TypePricingcardoneSkeleton } from "@/contentful/types/pricingcardone.types";
 import { TypePricingcardtwoSkeleton } from "@/contentful/types/pricingcardtwo.types";
 import { TypePricingcardthreeSkeleton } from "@/contentful/types/pricingcardthree.types";
-import { TypeProducttestimonialSkeleton,IContentfulAsset} from "@/contentful/types/producttestomnial";
+import { TypeProducttestimonialSkeleton} from "@/contentful/types/producttestomnial";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 import contentfulClient from "@/contentful/contentfulClient";
@@ -172,8 +172,8 @@ export default async function products() {
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:mb-[100px] mb-[50px]">
     {
-        pricingCardOne && pricingCardOne.items?.map((card)=>
-            <div className="">
+        pricingCardOne && pricingCardOne.items?.map((card,idx)=>
+            <div className="" key={idx}>
         {/* Card 1 */}
         <div className="max-w-[300px] bg-white rounded-lg shadow-md hover:shadow-lg border hover:scale-105 transform transition-all duration-300 p-6">
           <div className="text-sm font-medium text-blue-500 mb-2">{card.fields.type}</div>
@@ -246,7 +246,7 @@ export default async function products() {
                             <div>
                                 <span className="font-semibold">App Store optimization
                                 </span>
-                                <p>Boost your app’s visibility and downloads with proven App Store Optimization strategies, ensuring your app stands out in crowded marketplaces.
+                                <p>Boost your app&apos;s visibility and downloads with proven App Store Optimization strategies, ensuring your app stands out in crowded marketplaces.
 
                                 </p>
                             </div>
@@ -308,8 +308,8 @@ export default async function products() {
     </div>
    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:mb-[100px] mb-[50px]">
    {
-        pricingCardTwo && pricingCardTwo.items?.map((card)=>
-            <div className="">
+        pricingCardTwo && pricingCardTwo.items?.map((card,idx)=>
+            <div className="" key={idx}>
         {/* Card 1 */}
         <div className="max-w-[300px] bg-white rounded-lg shadow-md hover:shadow-lg border hover:scale-105 transform transition-all duration-300 p-6">
           <div className="text-sm font-medium text-blue-500 mb-2">{card.fields.type}</div>
@@ -455,8 +455,8 @@ export default async function products() {
     </div>
    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:mb-[100px] mb-[50px]">
    {
-        pricingCardThree && pricingCardThree.items?.map((card)=>
-            <div className="">
+        pricingCardThree && pricingCardThree.items?.map((card,idx)=>
+            <div className="" key={idx}>
         {/* Card 1 */}
         <div className="max-w-[300px] bg-white rounded-lg shadow-md hover:shadow-lg border hover:scale-105 transform transition-all duration-300 p-6">
           <div className="text-sm font-medium text-blue-500 mb-2">{card.fields.type}</div>

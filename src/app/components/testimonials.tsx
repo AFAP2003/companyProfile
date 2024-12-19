@@ -7,7 +7,7 @@ export default function Testimonials(){
     return(
         <div className="flex flex-col items-center gap-6 sm:p-[100px] p-[20px]">
             <div><Ratings/></div>
-            <div><span className="font-medium text-[20px]">We're listed on</span></div>
+            <div><span className="font-medium text-[20px]">We&apos;re listed on</span></div>
             <div className="flex sm:gap-5 flex-wrap sm:flex-nowrap justify-center sm:justify-start">
                 <Image src="https://mekari.com/wp-content/uploads/2023/06/logo-inv-gartner.svg" width={110} height={40} alt=""/>
                 <Image src="https://mekari.com/wp-content/uploads/2023/06/logo-inv-capterra.svg" width={148} height={40} alt=""/>
