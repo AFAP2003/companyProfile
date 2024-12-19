@@ -114,7 +114,7 @@ export default async function products() {
                             <div>
                                 <span className="font-semibold">SEO optimization
                                 </span>
-                                <p>Built-in search engine optimization to improve your site's visibility and ranking.
+                                <p>Built-in search engine optimization to improve your site&apos;s visibility and ranking.
 
                                 </p>
                             </div>
