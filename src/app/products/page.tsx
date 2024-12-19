@@ -493,13 +493,13 @@ export default async function products() {
             <span className="font-semibold sm:text-[50px] text-[30px]">What Our Clients Say?</span>
         </div>
        <div className=" flex sm:flex-row flex-col sm:mt-[100px] mt-[50px] sm:gap-10 gap-4 sm:px-[35px] p-[20px] sm:p-0 sm:pb-[300px]">
-        {
-            producttestimonial && producttestimonial.items?.map((testimonial,idx)=>
-                <div key={idx}>
-            <Carousel text={documentToReactComponents(testimonial.fields.text)} logo={testimonial.fields.image} name={testimonial.fields.name} position={testimonial.fields.title}/>
-            </div>
-            )
-        }
+        
+           
+            <Carousel />
+            <Carousel />
+
+            <Carousel />
+
        
         
      

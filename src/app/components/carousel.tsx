@@ -113,20 +113,22 @@ type CarouselProps = {
   position: string;
   logo: string;
 };
-export function Carousel({text,name,position,logo}:CarouselProps){
+export function Carousel(){
     return(
         <div className="flex flex-col  justify-between  bg-gray-100 p-8 rounded-lg min-h-[272px]">
       <div className="max-w-xl ">
-        <p className="text-lg text-gray-600 italic">{text}</p>
+        <p className="text-lg text-gray-600 italic">“Our collaboration with WebWorx for UI/UX design was a game-changer. Their designs not only matched our vision but exceeded expectations by addressing critical user pain points.”
+
+</p>
         
       </div>
       <div className="mt-4 flex justify-between ">
          <div className="">
-         <h3 className="text-base font-bold">{name}</h3>
-         <p className="text-sm text-gray-500">{position}</p>
+         <h3 className="text-base font-bold">Andi</h3>
+         <p className="text-sm text-gray-500">HR Manager</p>
          </div>
          <div>
-            <Image src={logo} width={148} height={56} alt=""/>
+            <Image src='' width={148} height={56} alt=""/>
          </div>
         </div>
       {/* Navigation Dots */}
