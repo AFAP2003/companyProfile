@@ -107,12 +107,7 @@ export default function TestimonialCarousel() {
 }
 
 
-type CarouselProps = {
-  text: React.ReactNode;  // Change from string to ReactNode
-  name: string;
-  position: string;
-  logo: string;
-};
+
 export function Carousel(){
     return(
         <div className="flex flex-col  justify-between  bg-gray-100 p-8 rounded-lg min-h-[272px]">
