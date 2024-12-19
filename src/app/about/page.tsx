@@ -1,7 +1,5 @@
 import Image from "next/image"
-import Navbar from "../components/navbar"
 import Card from "../components/cards"
-import Footer from "../components/footer"
 
 
 export default function About() {
