@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 export default function Product() {
@@ -9,11 +10,11 @@ export default function Product() {
                 <Image src="/product-section.png" width={500} height={500} alt="" />
                 
                 {/* Button positioned at the top right corner */}
-                <button 
+                <Link  href='/products'
                     className="absolute top-[29px] right-[34px] bg-white text-black px-4 py-2 rounded "
                 >
                     View Detail
-                </button>
+                </Link>
             </div>
             <div className="sm:max-w-[350px]">
                 <span className="text-[40px] font-bold ml-[25px] flex justify-center sm:justify-start">What We Do?</span>
@@ -48,14 +49,12 @@ export default function Product() {
                 </div>
                 <div className="flex gap-2">
                     <div className="relative top-1">
-                    <Image src="/user-experience.png" width={80} height={80} alt="" />
+                    <Image src="/data.png" width={80} height={80} alt="" />
 
                     </div>
                   <div>
-                  <span className="font-bold">UI/UX Design</span>
-                    <p>All things are designed. A few things are designed well.
-                        We try to elevate your ideas with great UI/UX design,
-                        suited to your taste, addressing the right pain points.</p>
+                  <span className="font-bold">Data Analytics</span>
+                    <p>Turning data into actionable insights is no small task. Predictive models? Business intelligence dashboards? Customer behavior analysis? We’ve done them all. Done them well. Done them fast.</p>
                   </div>
                 </div>
                </div>
