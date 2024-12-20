@@ -126,7 +126,7 @@ export function Carousel(){
 </p>
          </div>
          <div>
-            <Image src='/' width={148} height={56} alt=""/>
+            <Image src='/testimonial-1.svg' width={148} height={56} alt=""/>
          </div>
         </div>
       {/* Navigation Dots */}
