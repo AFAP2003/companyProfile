@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { BannerServices } from "../components/banner"
-import { Carousel } from "../components/carousel"
+import { Carousel,CarouselTwo,CarouselThree } from "../components/carousel"
 import { TypePricingcardoneSkeleton } from "@/contentful/types/pricingcardone.types";
 import { TypePricingcardtwoSkeleton } from "@/contentful/types/pricingcardtwo.types";
 import { TypePricingcardthreeSkeleton } from "@/contentful/types/pricingcardthree.types";
@@ -481,9 +481,9 @@ export default async function products() {
         
            
             <Carousel />
-            <Carousel />
+            <CarouselTwo />
 
-            <Carousel />
+            <CarouselThree />
 
        
         

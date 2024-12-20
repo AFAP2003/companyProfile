@@ -119,15 +119,72 @@ export function Carousel(){
       </div>
       <div className="mt-4 flex justify-between ">
          <div className="">
-         <h3 className="text-base font-bold">Andi</h3>
-         <p className="text-sm text-gray-500">HR Manager</p>
+         <h3 className="text-base font-bold">Rachel Morgan
+         </h3>
+         <p className="text-sm text-gray-500">HR Supervisor
+
+</p>
          </div>
          <div>
-            <Image src='' width={148} height={56} alt=""/>
+            <Image src='/' width={148} height={56} alt=""/>
          </div>
         </div>
       {/* Navigation Dots */}
     
     </div>
     )
+}
+
+export function CarouselTwo(){
+  return(
+    <div className="flex flex-col  justify-between  bg-gray-100 p-8 rounded-lg min-h-[272px]">
+    <div className="max-w-xl ">
+      <p className="text-lg text-gray-600 italic">“The team at WebWorx went above and beyond in designing our mobile application. The user-friendly interface and attention to detail have significantly boosted our customer engagement.”
+
+</p>
+      
+    </div>
+    <div className="mt-4 flex justify-between ">
+       <div className="">
+       <h3 className="text-base font-bold">Michael Carter
+       </h3>
+       <p className="text-sm text-gray-500">Product Manager
+
+</p>
+       </div>
+       <div>
+          <Image src='/testimonial-2.svg' width={148} height={56} alt=""/>
+       </div>
+      </div>
+    {/* Navigation Dots */}
+  
+  </div>
+  )
+}
+
+export function CarouselThree(){
+  return(
+    <div className="flex flex-col  justify-between  bg-gray-100 p-8 rounded-lg min-h-[272px]">
+    <div className="max-w-xl ">
+      <p className="text-lg text-gray-600 italic">“The team at WebWorx went above and beyond in designing our mobile application. The user-friendly interface and attention to detail have significantly boosted our customer engagement.”
+
+</p>
+      
+    </div>
+    <div className="mt-4 flex justify-between ">
+       <div className="">
+       <h3 className="text-base font-bold">Michael Carter
+       </h3>
+       <p className="text-sm text-gray-500">Product Manager
+
+</p>
+       </div>
+       <div>
+          <Image src='/testimonial-3.svg' width={148} height={56} alt=""/>
+       </div>
+      </div>
+    {/* Navigation Dots */}
+  
+  </div>
+  )
 }
