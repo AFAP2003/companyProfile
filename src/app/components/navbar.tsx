@@ -8,7 +8,7 @@ export default function Navbar() {
             {/* Logo aligned to the left */}
             <div className="flex-shrink"> 
                 <Image 
-                    src="/portfolio logo.png" 
+                    src="/company-logo.png" 
                     layout="intrinsic" 
                     width={233} 
                     height={50} 

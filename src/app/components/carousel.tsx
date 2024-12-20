@@ -112,7 +112,7 @@ export function Carousel(){
     return(
         <div className="flex flex-col  justify-between  bg-gray-100 p-8 rounded-lg min-h-[272px]">
       <div className="max-w-xl ">
-        <p className="text-lg text-gray-600 italic">“Our collaboration with WebWorx for UI/UX design was a game-changer. Their designs not only matched our vision but exceeded expectations by addressing critical user pain points.”
+        <p className="text-lg text-gray-600 italic">“Our collaboration with WebWorx for data analytics was a game-changer. Their analysis not only matched our vision but exceeded expectations by addressing critical pain points.”
 
 </p>
         
